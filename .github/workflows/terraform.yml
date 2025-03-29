@@ -3,12 +3,12 @@ name: Kubernetes Creation
 on:
     push:
       branches: 
-        - master
+        - main
       paths: 
         - main/**
     pull_request:
       branches: 
-        - master
+        - main
       paths: 
         - main/**
 env:
