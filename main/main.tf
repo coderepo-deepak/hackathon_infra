@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "my-ds-test"
+    bucket         = "deepak-test-ds"
     key            = "backend/eks.tfstate"
     region         = "us-west-2"
     #dynamodb_table = "terraform-eks-state-locks"
